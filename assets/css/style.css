@@ -1,0 +1,47 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/* Site Styling */
+html {
+	font-family: 'Roboto', sans-serif;
+
+}
+html, section {
+	background-color: #DDD;
+}
+header {
+	background-color: #f8f9fa;
+}
+.content-section {
+	margin: 40px auto;
+	padding: 20px;
+	background-color: #FFF;
+}
+.about-section img {
+	float: left;
+	margin: 0 20px 20px 0;
+}
+.portfolio-section {
+	text-align: center;
+}
+.portfolio-section img {
+	max-height: 420px;
+	padding: 15px;
+}
+.about-section em {
+	color: pink;
+	font-weight: bold;
+}
+.copyright {
+	position: absolute;
+    bottom: 0;
+    padding: 10px;
+    background-color: #FFF;
+}
+@media screen and (max-width: 480px) {
+  .about-section img {
+  	display: block;
+  	margin: 20px auto;
+  	float: none;
+  }
+}
